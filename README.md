@@ -1,16 +1,41 @@
-# flutter_application_1
 
-A new Flutter project.
+Hava Durumu Uygulaması (Flutter)
 
-## Getting Started
+Bu uygulama, Türkiye’deki şehirlerin güncel hava durumunu görüntülemenizi sağlar. Kullanıcılar şehir listesinden bir şehir seçerek, o şehir için sıcaklık ve hava durumu açıklamasını görebilir.
 
-This project is a starting point for a Flutter application.
+Özellikler:
 
-A few resources to get you started if this is your first Flutter project:
+Türkiye’deki tüm illeri listeleme.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Seçilen şehir için güncel sıcaklık ve hava durumu bilgisini gösterme.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Basit ve kullanıcı dostu arayüz.
+
+Flutter ile mobil platformda çalışabilir.
+
+OpenWeatherMap API kullanımı ile gerçek zamanlı veri çekme.
+
+
+Kullanım:
+
+Uygulamayı çalıştırın.
+
+Ekranda görünen şehirlerden birine dokunun.
+
+
+Notlar
+
+API anahtarınızın (appid) geçerli olması gerekir.
+
+Hava durumu verileri OpenWeatherMap tarafından sağlanmaktadır.
+Seçilen şehrin güncel sıcaklığı ve hava durumu bilgisi üst kısımda gösterilecektir.
+
+Teknolojiler
+
+Flutter: Mobil uygulama geliştirme.
+
+Dart: Programlama dili.
+
+Dio: HTTP istekleri için paket.
+
+OpenWeatherMap API: Hava durumu verilerini sağlamak için.
